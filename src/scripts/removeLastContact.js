@@ -11,7 +11,6 @@ export const removeLastContact = async () => {
     return;
   } catch (error) {
     console.error(error);
-    throw error;
   }
 };
 

@@ -10,7 +10,6 @@ export const removeAllContacts = async () => {
     return;
   } catch (error) {
     console.error(error);
-    throw error;
   }
 };
 

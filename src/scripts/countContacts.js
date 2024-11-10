@@ -6,7 +6,6 @@ export const countContacts = async () => {
     return contacts.length;
   } catch (error) {
     console.error(error);
-    throw error;
   }
 };
 
